@@ -9,7 +9,7 @@ Sains forum adalah sebuah forum berbasis laravel dan mysql dimana user bisa bert
 4. Rico Andreas - 2057201027
 
 ## Link video:https://drive.google.com/drive/folders/16uo-l5kKKtq1lv5kEt4rE85JCLG1OQLh?usp=share_link
-
+## Link video:https://drive.google.com/drive/folders/13fETxp0CIE2c_6HF6--r4bEyHGbQrvDI?usp=share_link
 #### Fitur aplikasi.
 - Login Register mengunakan Laravel Fortify
 - Dashboard Admin (hak hapus postingan, hak edit postingan user, menambahkan tags dan kategori).
