@@ -9,7 +9,11 @@
             </a>
 
             <div>
-                <h2 class="font-semibold text-blue-500">
+                <h2 class="font-bold text-grey-500">
+                    Nama :
+                </h2>
+               
+                <h2 class="font-semibold text-red-500">
                     {{ $user->name() }}
                 </h2>
             </div>
@@ -21,7 +25,7 @@
             <x-alerts.main />
 
             <span class="w-full p-2 font-bold text-red-500 bg-white rounded shadow">
-                Laman
+               List Postingan
             </span>
 
             @foreach($user->latestThreads() as $thread)
@@ -30,7 +34,7 @@
                     {{-- Thread --}}
                     <div class="relative col-span-7 space-y-6">
                         <div class="space-y-3">
-                            <h2 class="text-xl tracking-wide hover:text-blue-400">
+                            <h2 class="text-xl tracking-wide hover:text-red-400">
                                 {{ $thread->title() }}
                             </h2>
                             <div class="text-gray-500">
