@@ -80,3 +80,25 @@ Lalu jalankan aplikasi
 ```
 php artisan serve
 ```
+
+##akun
+
+    ADMIN:
+      EMAIL:  admin@sainsforum.com
+      PASS:   password
+
+      EMAIL:  rahma@sainsforum.com
+      PASS:   password
+    
+    MODERATOR
+      EMAIL:  markus@sainsforum.com
+      PASS:   password
+
+      EMAIL:  ade@sainsforum.com
+      PASS:   password
+
+    USER
+
+      EMAIL:  rico@sainsforum.com
+      PASS:   password
+      

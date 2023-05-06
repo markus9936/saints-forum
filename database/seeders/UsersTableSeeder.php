@@ -54,13 +54,7 @@ class UsersTableSeeder extends Seeder
             'type'      => User::DEFAULT,
         ]);
 
-        User::factory()->create([
-            'name'      => 'Suci MandasarI',
-            'username'  => 'SCC',
-            'email'     => 'suci@kitapintar.com',
-            'password'  => bcrypt('password'),
-            'type'      => User::DEFAULT,
-        ]);
+      
 
 
         User::factory()->count(10)->create();
