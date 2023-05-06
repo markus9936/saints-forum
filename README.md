@@ -1,13 +1,12 @@
-# Kita Pintar
+# Sains forum
 
-Kita pintar adalah sebuah forum berbasis laravel dan mysql dimana user bisa bertanya dan mengajukan pertanyaan serta bisa menjawab pertanyaan.
+Sains forum adalah sebuah forum berbasis laravel dan mysql dimana user bisa bertanya dan mengajukan pertanyaan seputar sains serta bisa menjawab pertanyaan.
 
 ## Nama Kelompok:
-1. asdasdas
-2. asdasdhas
-3. adasdasd
-4. asdasd
-5. asdasd
+1. Rahmansyah Marlis - 2057201064
+2. Markus Waruwu - 2057201053
+3. Ade Rudiansyah - 2057201041
+4. Rico Andreas - 2057201027
 
 ## Link video:
 
