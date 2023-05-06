@@ -17,26 +17,26 @@ class TagsTableSeeder extends Seeder
     {
         DB::table('tags')->insert([
             [
-                'name'          => 'Aljabar',
-                'slug'          => 'aljabar',
+                'name'          => 'Bulan',
+                'slug'          => 'bulan',
                 'created_at'    => Carbon::now(),
                 'updated_at'    => Carbon::now(),
             ],
             [
-                'name'          => 'Golang',
-                'slug'          => 'golang',
+                'name'          => 'Hewan',
+                'slug'          => 'hewan',
                 'created_at'    => Carbon::now(),
                 'updated_at'    => Carbon::now(),
             ],
             [
-                'name'          => 'Restapi',
-                'slug'          => 'restapi',
+                'name'          => 'Galaxi',
+                'slug'          => 'galaxi',
                 'created_at'    => Carbon::now(),
                 'updated_at'    => Carbon::now(),
             ],
             [
-                'name'          => 'PHP',
-                'slug'          => 'php',
+                'name'          => 'Air',
+                'slug'          => 'air',
                 'created_at'    => Carbon::now(),
                 'updated_at'    => Carbon::now(),
             ],

@@ -17,39 +17,39 @@ class UsersTableSeeder extends Seeder
         User::factory()->create([
             'name'      => 'Admin',
             'username'  => 'admin',
-            'email'     => 'admin@kitapintar.com',
+            'email'     => 'admin@sainsforum.com',
             'password'  => bcrypt('password'),
             'type'      => User::ADMIN,
         ]);
 
         User::factory()->create([
-            'name'      => 'Apriliaosa Fani',
-            'username'  => 'appri',
-            'email'     => 'john@example.com',
+            'name'      => 'Rahmansyah Marlis',
+            'username'  => 'rahma',
+            'email'     => 'rahma@sainsforum.com',
             'password'  => bcrypt('password'),
             'type'      => User::ADMIN,
         ]);
 
         User::factory()->create([
-            'name'      => 'Vikha Handayani',
-            'username'  => 'vika',
-            'email'     => 'vika@kitapintar.com',
+            'name'      => 'Markus Waruwu',
+            'username'  => 'markus',
+            'email'     => 'markus@sainsforum.com',
             'password'  => bcrypt('password'),
             'type'      => User::MODERATOR,
         ]);
 
         User::factory()->create([
-            'name'      => 'Prida Angelina',
-            'username'  => 'Prida',
-            'email'     => 'prida@kitapintar.com',
+            'name'      => 'Ade Rudiansyah',
+            'username'  => 'ade',
+            'email'     => 'ade@sainsforum.com',
             'password'  => bcrypt('password'),
             'type'      => User::MODERATOR,
         ]);
 
         User::factory()->create([
-            'name'      => 'Restu Yulia',
+            'name'      => 'Rico Andreas',
             'username'  => 'r33',
-            'email'     => 'restu@kitapintar.com',
+            'email'     => 'rico@sainsforum.com',
             'password'  => bcrypt('password'),
             'type'      => User::DEFAULT,
         ]);
