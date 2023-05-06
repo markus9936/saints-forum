@@ -5,11 +5,12 @@
         {{-- Avatar --}}
         <div class="col-span-1">
             <x-user.avatar :user="$thread->author()" />
+                
         </div>
-
+        
         {{-- Content --}}
         <div class="col-span-6 space-y-7">
-            
+            <x-jet-section-border />
             <a href="{{ route('threads.show', [$thread->category->slug(), $thread->slug()]) }}" class="space-y-2">
                 <h2 class="text-xl tracking-wide hover:text-red-400">
                     {{ $thread->title() }}
@@ -24,7 +25,7 @@
         <div class="flex items-center space-x-2">
             <div class="flex space-x-2">
                 @foreach($thread->tags() as $tag)
-                <a href="{{ route('threads.tags.index', $tag->slug()) }}" class="p-1 text-xs text-white bg-green-400 rounded">
+                <a href="{{ route('threads.tags.index', $tag->slug()) }}" class="p-1 text-xs text-white bg-red-400 rounded">
                     {{ $tag->name() }}
                 </a>
                 @endforeach

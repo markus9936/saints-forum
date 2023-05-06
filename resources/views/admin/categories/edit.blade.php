@@ -1,11 +1,7 @@
 <x-app-layout>
 
     {{-- Header --}}
-    <x-slot name="header">
-        <h2 class="text-xl font-semibold leading-tight">
-            {{ __('Kategori: Edit') }}
-        </h2>
-    </x-slot>
+    
 
     <section class="mx-6">
         <div class="p-8">
@@ -13,15 +9,15 @@
                 <div class="space-y-8">
                    
                     <div>
-                        <x-form.label for="name" value="{{ __('Nama') }}" />
-                        <x-form.input id="name" class="block w-full mt-1" type="text" name="name" :value="$category->name" required autofocus />
+                        <x-form.label for="name" value="{{ __('Edit kategori') }}" />
+                        <x-form.inpum id="name" class="block w-full mt-1" type="text" name="name" :value="$category->name" required autofocus />
                         <x-form.error for="name" />
                     </div>
 
                    
-                    <x-buttons.primary>
+                    <x-buttons.save>
                         {{ __('Update') }}
-                    </x-buttons.primary>
+                    </x-buttons.save>
             </x-form>
         </div>
     </section>
