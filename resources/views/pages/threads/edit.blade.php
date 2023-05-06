@@ -4,8 +4,7 @@
         <x-partials.sidenav />
 
         <section class="flex flex-col col-span-3 gap-y-4">
-            <small class="text-sm text-gray-400">threads>{{ $thread->title() }}>edit</small>
-
+            
             <article class="p-5 bg-white shadow">
                 <div class="w-full">
 
@@ -16,14 +15,14 @@
 
                                 {{-- Title --}}
                                 <div>
-                                    <x-form.label for="title" value="{{ __('Title') }}" />
-                                    <x-form.input id="title" class="block w-full mt-1" type="text" name="title" :value="$thread->title()" autofocus />
+                                    <x-form.label-add for="title" value="{{ __('Title') }}" />
+                                    <x-form.inpum id="title" class="block w-full mt-1" type="text" name="title" :value="$thread->title()" autofocus />
                                     <x-form.error for="title" />
                                 </div>
 
                                 {{-- Category --}}
                                 <div>
-                                    <x-form.label for="category" value="{{ __('Category') }}" />
+                                    <x-form.label-add for="category" value="{{ __('Category') }}" />
                                     <select name="category" id="category" class="w-full text-sm border-gray-300 rounded-md shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50">
                                         @foreach ($categories as $category)
                                         <option value="{{ $category->id() }}" @if($category->id() == $selectedCategory->id) selected @endif>
@@ -36,7 +35,7 @@
 
                                 {{-- Tags --}}
                                 <div>
-                                    <x-form.label for="tags" value="{{ __('Tags') }}" />
+                                    <x-form.label-add for="tags" value="{{ __('Tags') }}" />
                                     <select name="tags[]" id="tags" x-data="{}" x-init="function () { choices($el) }" class="w-full text-sm border-gray-300 rounded-md shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50" multiple>
                                         @foreach ($tags as $tag)
                                         <option value="{{ $tag->id() }}" @if(in_array($tag->id(), $oldTags)) selected @endif
@@ -50,7 +49,7 @@
 
                                 {{-- Body --}}
                                 <div>
-                                    <x-form.label for="body" value="{{ __('Text') }}" />
+                                    <x-form.label-add for="body" value="{{ __('Text') }}" />
                                     <textarea class="ckeditor form-control" name="body"></textarea>
                                    
                                     
@@ -63,9 +62,9 @@
                                  });
                                 </script>
                                 {{-- Button --}}
-                                <x-buttons.primary>
+                                <x-buttons.save>
                                     {{ __('Update') }}
-                                </x-buttons.primary>
+                                </x-buttons.save>
                         </x-form>
                     </div>
                 </div>

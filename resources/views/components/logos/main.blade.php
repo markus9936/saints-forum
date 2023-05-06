@@ -1,4 +1,9 @@
-<h2 class="text-xl font-semibold leading-tight text-black-500">
- 
-    Sains menajwab
+<h2 class="app text-xl font-bold font-face-serif leading-tight text-red-500">
+    Sains forum
 </h2>
+
+<style>
+    .app{
+        font-family: Tahoma, sans-serif;
+    }
+</style>
