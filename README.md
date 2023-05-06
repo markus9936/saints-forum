@@ -9,6 +9,7 @@ Sains forum adalah sebuah forum berbasis laravel dan mysql dimana user bisa bert
 4. Rico Andreas - 2057201027
 
 ## Link video:https://drive.google.com/drive/folders/13fETxp0CIE2c_6HF6--r4bEyHGbQrvDI?usp=share_link
+ERD LINK:https://github.com/markus9936/saints-forum/blob/main/erd-sains%20forum.png
 
 #### Fitur aplikasi.
 - Login Register mengunakan Laravel Fortify
