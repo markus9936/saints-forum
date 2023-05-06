@@ -81,7 +81,7 @@ Lalu jalankan aplikasi
 php artisan serve
 ```
 
-##akun
+## akun
 
     ADMIN:
       EMAIL:  admin@sainsforum.com
@@ -101,4 +101,3 @@ php artisan serve
 
       EMAIL:  rico@sainsforum.com
       PASS:   password
-      
